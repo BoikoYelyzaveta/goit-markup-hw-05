@@ -642,6 +642,7 @@ padding: 8px 24px;
 
 .footer-btn-icon{
     margin-left: 16px;
+    fill: #ffffff;
 }
 
 
@@ -883,7 +884,6 @@ input[type="checkbox"]:checked + .modal-form-egremeent-text .modal-form-checkbox
 
 .modal-form-checkbox-icon {
 
-    fill: transparent;
 }
 .modal-form-egremeent-link {
     color: #4d5ae5;
@@ -903,6 +903,12 @@ input[type="checkbox"]:checked + .modal-form-egremeent-text .modal-form-checkbox
     background-color: #4D5AE5;
     border: none; 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+
 }
 /* #endregion */
 
