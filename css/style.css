@@ -846,19 +846,29 @@ font-weight: 400;
     fill: transparent;
 }
 
-.visually-hidden:checked{
-    background-color: #404bbf;
-    border: none;
-    fill: #f4f4fd;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+
 }
-
-
-
-.visually-hidden:checked + .modal-form-egremeent-text > .modal-form-checkbox{
+input[type="checkbox"]:checked + .modal-form-egremeent-text .modal-form-checkbox {
     background-color:#404bbf;
     border: none;
     fill: #f4f4fd;
 }
+
+
+/* .visually-hidden:checked + .modal-form-egremeent-text > .modal-form-checkbox{
+    background-color:#404bbf;
+    border: none;
+    fill: #f4f4fd;
+} */
 
 
 
