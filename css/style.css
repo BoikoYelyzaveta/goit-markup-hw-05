@@ -690,33 +690,15 @@ padding: 72px 24px 24px 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
-
-.modal-btn:focus,
-.modal-btn:hover{
-    background-color: #404BBF;
-    border: none;
+.modal-btn:hover {
     fill: #ffffff;
-}
-
-.modal-btn-input:focus,
-.modal-btn-input:hover{
-    fill: #4D5AE5;
+    background-color: #404bbf;
     border: none;
 }
-
-
-.modal-form-icon:focus,
-.modal-form-icon:hover
-{ 
-fill: #ffffff;
-border: none;
-}
-
-
-
-.modal-form-input:focus + .modal-form-icon {
-    fill: #4d5ae5;
+.modal-btn:focus{
+    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 
 
@@ -724,7 +706,8 @@ border: none;
 
 .modal-btn-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: #2E2F42;
+    
+    
 }
 
 
