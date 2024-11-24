@@ -696,13 +696,21 @@ padding: 72px 24px 24px 24px;
 .modal-btn:hover{
     background-color: #404BBF;
     border: none;
+    fill: #ffffff;
+}
+
+.modal-btn-input:focus,
+.modal-btn-input:hover{
+    fill: #4D5AE5;
+    border: none;
 }
 
 
-.modal-btn:focus .modal-btn-icon:focus,
-.modal-btn:hover .modal-btn-icon:hover
+.modal-form-icon:focus,
+.modal-form-icon:hover
 { 
 fill: #ffffff;
+border: none;
 }
 
 
@@ -862,15 +870,6 @@ input[type="checkbox"]:checked + .modal-form-egremeent-text .modal-form-checkbox
     border: none;
     fill: #f4f4fd;
 }
-
-
-/* .visually-hidden:checked + .modal-form-egremeent-text > .modal-form-checkbox{
-    background-color:#404bbf;
-    border: none;
-    fill: #f4f4fd;
-} */
-
-
 
 
 .modal-form-checkbox-icon {
