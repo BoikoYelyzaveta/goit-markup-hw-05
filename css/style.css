@@ -854,7 +854,18 @@ font-weight: 400;
 
 
 
+.visually-hidden:checked + .modal-form-egremeent-text > .modal-form-checkbox{
+    background-color:#404bbf;
+    border: none;
+    fill: #f4f4fd;
+}
+
+
+
+
 .modal-form-checkbox-icon {
+
+    fill: transparent;
 }
 .modal-form-egremeent-link {
     color: #4d5ae5;
